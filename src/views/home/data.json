@@ -1,0 +1,134 @@
+{
+  "name": "zz",
+  "defaultBalancePoints": 3,
+  "defaultTradingPoints": 16,
+  "futureEvents": [],
+  "historyEvents": [
+    {
+      "time": "2025-8-8",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-8-7",
+      "balancePoints": 3,
+      "tradingPoints": 17,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-8-6",
+      "balancePoints": 3,
+      "tradingPoints": 17,
+      "consumePoints": 30,
+      "claimedAirdrop": [
+        {
+          "symbol": "F",
+          "value": 50
+        },
+        {
+          "symbol": "E",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "time": "2025-8-5",
+      "balancePoints": 3,
+      "tradingPoints": 17,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-8-4",
+      "balancePoints": 3,
+      "tradingPoints": 17,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-8-3",
+      "balancePoints": 3,
+      "tradingPoints": 17,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-8-2",
+      "balancePoints": 3,
+      "tradingPoints": 17,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-8-1",
+      "balancePoints": 3,
+      "tradingPoints": 17,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-7-31",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-7-30",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 45,
+      "claimedAirdrop": [
+        {
+          "symbol": "F",
+          "value": 50
+        },
+        {
+          "symbol": "E",
+          "value": 50
+        },
+        {
+          "symbol": "E",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "time": "2025-7-29",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-7-28",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 0
+    },
+    {
+      "time": "2025-7-27",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 15,
+      "claimedAirdrop": [
+        {
+          "symbol": "D",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "time": "2025-7-26",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 15,
+      "claimedAirdrop": [
+        {
+          "symbol": "C",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "time": "2025-7-25",
+      "balancePoints": 3,
+      "tradingPoints": 16,
+      "consumePoints": 0
+    }
+  ]
+}

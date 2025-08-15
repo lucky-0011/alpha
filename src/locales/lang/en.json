@@ -1,0 +1,8 @@
+{
+  "level1": {
+    "level12": {
+      "level3": "level1->level2->level3"
+    }
+  },
+  "hello": "Hello, {name}!"
+}

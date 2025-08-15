@@ -1,0 +1,606 @@
+{
+  "currentTime": 1754870400000,
+  "alphaList": [
+    {
+      "name": "zz",
+      "defaultBalancePoints": 3,
+      "defaultTradingPoints": 16,
+      "futureEvents": [
+        {
+          "time": "2025-08-12",
+          "timestamp": 1754956800000,
+          "points": 217,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-13",
+          "timestamp": 1755043200000,
+          "points": 217,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-14",
+          "timestamp": 1755129600000,
+          "points": 217,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-15",
+          "timestamp": 1755216000000,
+          "points": 262,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-16",
+          "timestamp": 1755302400000,
+          "points": 262,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-17",
+          "timestamp": 1755388800000,
+          "points": 261,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-18",
+          "timestamp": 1755475200000,
+          "points": 260,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-19",
+          "timestamp": 1755561600000,
+          "points": 259,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-20",
+          "timestamp": 1755648000000,
+          "points": 258,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-21",
+          "timestamp": 1755734400000,
+          "points": 257,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-22",
+          "timestamp": 1755820800000,
+          "points": 286,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-23",
+          "timestamp": 1755907200000,
+          "points": 285,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-24",
+          "timestamp": 1755993600000,
+          "points": 285,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-25",
+          "timestamp": 1756080000000,
+          "points": 285,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-26",
+          "timestamp": 1756166400000,
+          "points": 285,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        }
+      ],
+      "historyEvents": [
+        {
+          "time": "2025-08-10",
+          "timestamp": 1754784000000,
+          "points": 187,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-09",
+          "timestamp": 1754697600000,
+          "points": 187,
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-8-8",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754611200000
+        },
+        {
+          "time": "2025-8-7",
+          "balancePoints": 3,
+          "tradingPoints": 17,
+          "consumePoints": 0,
+          "timestamp": 1754524800000
+        },
+        {
+          "time": "2025-8-6",
+          "balancePoints": 3,
+          "tradingPoints": 17,
+          "consumePoints": 30,
+          "claimedAirdrop": [
+            {
+              "symbol": "F",
+              "value": 50
+            },
+            {
+              "symbol": "E",
+              "value": 50
+            }
+          ],
+          "timestamp": 1754438400000
+        },
+        {
+          "time": "2025-8-5",
+          "balancePoints": 3,
+          "tradingPoints": 17,
+          "consumePoints": 0,
+          "timestamp": 1754352000000
+        },
+        {
+          "time": "2025-8-4",
+          "balancePoints": 3,
+          "tradingPoints": 17,
+          "consumePoints": 0,
+          "timestamp": 1754265600000
+        },
+        {
+          "time": "2025-8-3",
+          "balancePoints": 3,
+          "tradingPoints": 17,
+          "consumePoints": 0,
+          "timestamp": 1754179200000
+        },
+        {
+          "time": "2025-8-2",
+          "balancePoints": 3,
+          "tradingPoints": 17,
+          "consumePoints": 0,
+          "timestamp": 1754092800000
+        },
+        {
+          "time": "2025-8-1",
+          "balancePoints": 3,
+          "tradingPoints": 17,
+          "consumePoints": 0,
+          "timestamp": 1754006400000
+        },
+        {
+          "time": "2025-7-31",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1753920000000
+        },
+        {
+          "time": "2025-7-30",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 45,
+          "claimedAirdrop": [
+            {
+              "symbol": "F",
+              "value": 50
+            },
+            {
+              "symbol": "E",
+              "value": 50
+            },
+            {
+              "symbol": "E",
+              "value": 50
+            }
+          ],
+          "timestamp": 1753833600000
+        },
+        {
+          "time": "2025-7-29",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1753747200000
+        },
+        {
+          "time": "2025-7-28",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1753660800000
+        },
+        {
+          "time": "2025-7-27",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 15,
+          "claimedAirdrop": [
+            {
+              "symbol": "D",
+              "value": 100
+            }
+          ],
+          "timestamp": 1753574400000
+        },
+        {
+          "time": "2025-7-26",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 15,
+          "claimedAirdrop": [
+            {
+              "symbol": "C",
+              "value": 100
+            }
+          ],
+          "timestamp": 1753488000000
+        },
+        {
+          "time": "2025-7-25",
+          "balancePoints": 3,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1753401600000
+        }
+      ],
+      "id": 1,
+      "currentEvent": {
+        "time": "2025-08-11",
+        "timestamp": 1754870400000,
+        "points": 202,
+        "balancePoints": 3,
+        "tradingPoints": 16,
+        "consumePoints": 0,
+        "claimedAirdrop": []
+      }
+    },
+    {
+      "name": "xx",
+      "defaultBalancePoints": 2,
+      "defaultTradingPoints": 16,
+      "futureEvents": [
+        {
+          "time": "2025-08-12",
+          "timestamp": 1754956800000,
+          "points": 195,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-13",
+          "timestamp": 1755043200000,
+          "points": 195,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-14",
+          "timestamp": 1755129600000,
+          "points": 210,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-15",
+          "timestamp": 1755216000000,
+          "points": 240,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-16",
+          "timestamp": 1755302400000,
+          "points": 240,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-17",
+          "timestamp": 1755388800000,
+          "points": 240,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-18",
+          "timestamp": 1755475200000,
+          "points": 255,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-19",
+          "timestamp": 1755561600000,
+          "points": 255,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-20",
+          "timestamp": 1755648000000,
+          "points": 255,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-21",
+          "timestamp": 1755734400000,
+          "points": 255,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-22",
+          "timestamp": 1755820800000,
+          "points": 255,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-23",
+          "timestamp": 1755907200000,
+          "points": 270,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-24",
+          "timestamp": 1755993600000,
+          "points": 270,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-25",
+          "timestamp": 1756080000000,
+          "points": 270,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        },
+        {
+          "time": "2025-08-26",
+          "timestamp": 1756166400000,
+          "points": 270,
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "claimedAirdrop": []
+        }
+      ],
+      "historyEvents": [
+        {
+          "time": "2025-8-10",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754784000000
+        },
+        {
+          "time": "2025-8-9",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754697600000
+        },
+        {
+          "time": "2025-8-8",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754611200000
+        },
+        {
+          "time": "2025-8-7",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 15,
+          "claimedAirdrop": [
+            {
+              "symbol": "F",
+              "value": 50
+            }
+          ],
+          "timestamp": 1754524800000
+        },
+        {
+          "time": "2025-8-6",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754438400000
+        },
+        {
+          "time": "2025-8-5",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754352000000
+        },
+        {
+          "time": "2025-8-4",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754265600000
+        },
+        {
+          "time": "2025-8-3",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754179200000
+        },
+        {
+          "time": "2025-8-2",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 15,
+          "claimedAirdrop": [
+            {
+              "symbol": "C",
+              "value": 100
+            }
+          ],
+          "timestamp": 1754092800000
+        },
+        {
+          "time": "2025-8-1",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1754006400000
+        },
+        {
+          "time": "2025-7-31",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1753920000000
+        },
+        {
+          "time": "2025-7-30",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 30,
+          "claimedAirdrop": [
+            {
+              "symbol": "F",
+              "value": 50
+            },
+            {
+              "symbol": "E",
+              "value": 50
+            }
+          ],
+          "timestamp": 1753833600000
+        },
+        {
+          "time": "2025-7-29",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 15,
+          "claimedAirdrop": [
+            {
+              "symbol": "D",
+              "value": 100
+            }
+          ],
+          "timestamp": 1753747200000
+        },
+        {
+          "time": "2025-7-28",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1753660800000
+        },
+        {
+          "time": "2025-7-27",
+          "balancePoints": 2,
+          "tradingPoints": 16,
+          "consumePoints": 0,
+          "timestamp": 1753574400000
+        }
+      ],
+      "id": 2,
+      "currentEvent": {
+        "time": "2025-08-11",
+        "timestamp": 1754870400000,
+        "points": 195,
+        "balancePoints": 2,
+        "tradingPoints": 16,
+        "consumePoints": 0,
+        "claimedAirdrop": []
+      }
+    }
+  ]
+}
+
