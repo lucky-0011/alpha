@@ -4,9 +4,6 @@
       {{ dayjs(alphaStore.currentTime).format('MM-DD') }}空投信息
 
       {{ alphaStore.currentTime }}
-
-      <el-button @click="addRef!.init()">添加</el-button>
-
     </div>
 
     <el-tabs v-model="active" class="demo-tabs">
@@ -17,7 +14,7 @@
     <el-button @click="addRef!.init()">添加</el-button>
 
     <el-table :data="alphaStore.alphaList" border style="width: 100%">
-      <el-table-column fixed prop="id" sortable label="ID" width="80" />
+      <el-table-column fixed prop="level" sortable label="排序" width="80" />
       <el-table-column fixed prop="name" label="名称" width="120" />
       <el-table-column fixed :label="dayjs(alphaStore.currentTime).format('MM-DD ddd')" min-width="100">
         <template #default="{ row }">
@@ -69,24 +66,30 @@
 
       <el-table-column fixed="right" label="操作" min-width="80">
         <template #default="{ row }">
-          <el-button link type="primary" size="small" @click="set(row.id)">设置</el-button>
-          <el-button link type="primary" size="small" @click="claim(row.id)">领取</el-button>
+          <el-button link type="primary" size="small" @click="setAlpha(row.id)">设置</el-button>
+          <el-button link type="primary" size="small" @click="claimAirdrop(row.id)">领取</el-button>
+          <el-button link type="primary" size="small" @click="deleteAlpha(row.id)">删除</el-button>
         </template>
       </el-table-column>
     </el-table>
 
     <Add ref="add"></Add>
+    <Set ref="set"></Set>
+    <Claim ref="claim"></Claim>
   </div>
 </template>
 
 <script setup lang="ts">
 import dayjs from 'dayjs'
 import Add from './components/Add.vue'
+import Set from './components/Set.vue'
+import Claim from './components/Claim.vue'
 import { mseconds, useAlphaStore } from '@/stores/modules/alpha.ts'
 import { http } from '@/apis/http.ts'
 
-type FooType = InstanceType<typeof Add>
-const addRef = useTemplateRef<FooType>('add')
+const addRef = useTemplateRef<InstanceType<typeof Add>>('add')
+const setRef = useTemplateRef<InstanceType<typeof Set>>('set')
+const claimRef = useTemplateRef<InstanceType<typeof Claim>>('claim')
 
 const active = ref('future')
 
@@ -97,15 +100,21 @@ onMounted(() => {
   getKTopPrice()
 })
 
-const claim = (id: number) => {
-  alphaStore.claimAirdrop(id, {
-    symbol: 'WAI',
-    value: 60,
-  })
+const claimAirdrop = (id: number) => {
+  claimRef.value!.init(id)
 }
 
-const set = (id: number) => {
+const deleteAlpha = async (id: number) => {
+  try {
+    await ElMessageBox.confirm('确定删除?')
+    alphaStore.deleteAlpha(id)
+  } catch (e) {
 
+  }
+}
+
+const setAlpha = (id: number) => {
+  setRef.value!.init(id)
 }
 
 const getKTopPrice = async () => {

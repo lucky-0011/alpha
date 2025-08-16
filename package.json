@@ -13,6 +13,7 @@
     "lint:eslint": "eslint . --fix",
     "lint": "run-s lint:*",
     "format": "prettier --write src/",
+    "predeploy": "pnpm run build-only",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

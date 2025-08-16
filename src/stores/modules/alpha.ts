@@ -19,6 +19,7 @@ interface Airdrop {
 
 export interface Alpha {
   id: number
+  level: number
   name: string
   defaultBalancePoints: number
   defaultTradingPoints: number
@@ -34,7 +35,6 @@ const calcPoints = (arr: Event[]) => {
 }
 
 const getCurrentTime = () => {
-  console.log(44)
   const now = new Date()
   const currentHours = now.getHours()
   if (currentHours < 8) {
@@ -102,7 +102,7 @@ export const useAlphaStore = defineStore(
 
     // 添加新账号
     const addAlpha = (alpha: Alpha) => {
-      alpha.id = alphaList.value.length + 1
+      alpha.id = new Date().getTime()
 
       improveHistoryData(alpha)
       improveCurrentData(alpha)
@@ -140,12 +140,25 @@ export const useAlphaStore = defineStore(
       }
     }
 
-    const updateAlpha = (id: number) => {
-
-
+    const updateAlpha = (id: number, alpha: Alpha) => {
+      const index = alphaList.value.findIndex(item => item.id === id)
+      if (index !== -1) {
+        alpha.currentEvent.points = calcPoints(alpha.historyEvents)
+        alpha.currentEvent.balancePoints = alpha.defaultBalancePoints
+        alpha.currentEvent.tradingPoints = alpha.defaultTradingPoints
+        improveFutureData(alpha)
+        alphaList.value[index] = alpha
+      }
     }
 
-    return { alphaList, currentTime, addAlpha, claimAirdrop, dailyUpdate }
+    const deleteAlpha = (id: number) => {
+      const index = alphaList.value.findIndex(item => item.id === id)
+      if (index !== -1) {
+        alphaList.value.splice(index, 1)
+      }
+    }
+
+    return { alphaList, currentTime, addAlpha, updateAlpha, claimAirdrop, dailyUpdate, deleteAlpha }
   },
   {
     persist: true,

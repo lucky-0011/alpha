@@ -1,7 +1,7 @@
 <template>
   <el-dialog v-model="visible" title="添加" width="500">
     <el-input v-model="textarea" :rows="20" type="textarea" placeholder="Please input" />
-    <el-button @click="add">添加</el-button>
+    <el-button @click="update">更新</el-button>
   </el-dialog>
 </template>
 
@@ -9,20 +9,22 @@
 import type { Alpha } from '@/stores/modules/alpha.ts'
 
 const visible = ref(false)
-const init = () => {
+const init = (_id: number) => {
   visible.value = true
+  id.value = _id
+  textarea.value = JSON.stringify(alphaStore.alphaList.find(item => item.id === _id), null, 2)
 }
 
+const id = ref(0)
 const textarea = ref('')
 
 const alphaStore = useAlphaStore()
-const add = () => {
+const update = () => {
   if (textarea) {
     const alpha: Alpha = JSON.parse(textarea.value)
-    alpha.historyEvents.forEach(item => {
-      item.timestamp = new Date(item.time).getTime() + 8 * 60 * 60 * 1000
-    })
-    alphaStore.addAlpha(alpha)
+    alpha.futureEvents = []
+    alphaStore.updateAlpha(id.value, alpha)
+    visible.value = false
   }
 }
 
